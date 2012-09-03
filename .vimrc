@@ -8,7 +8,7 @@ set ruler
 set number
 im :<CR> :<CR><TAB>
 set background=dark
-colors blackboard
+colors desert256
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 autocmd FileType make set noexpandtab|set nosmarttab 
 map <F5> :tabp<CR>
@@ -16,6 +16,7 @@ map <F6> :tabn<CR>
 if has("gui_running")
   " GUI is running or is about to start.
   " Maximize gvim window.
+  colors blackboard
   set lines=999 columns=999
   set gfn=Anonymous_Pro:h11:cANSI
 endif
