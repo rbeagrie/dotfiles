@@ -13,3 +13,17 @@ autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 autocmd FileType make set noexpandtab|set nosmarttab 
 map <F5> :tabp<CR>
 map <F6> :tabn<CR>
+if has("gui_running")
+  " GUI is running or is about to start.
+  " Maximize gvim window.
+  set lines=999 columns=999
+  set gfn=Anonymous_Pro:h11:cANSI
+endif
+set foldmethod=indent
+set foldnestmax=2
+syntax on
+nnoremap <space> za
+vnoremap <space> zf
+call pathogen#infect()
+call pathogen#helptags()
+
