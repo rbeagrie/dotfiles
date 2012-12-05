@@ -21,8 +21,6 @@ if has("gui_running")
   set lines=999 columns=999
   set gfn=Anonymous_Pro:h11:cANSI
 endif
-set foldmethod=indent
-set foldnestmax=2
 syntax on
 nnoremap <space> za
 vnoremap <space> zf
