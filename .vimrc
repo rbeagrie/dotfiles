@@ -6,7 +6,7 @@ set softtabstop=4
 set autoindent
 set ruler
 set number
-im :<CR> :<CR><TAB>
+"im :<CR> :<CR><TAB>
 set background=dark
 colors desert256
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
