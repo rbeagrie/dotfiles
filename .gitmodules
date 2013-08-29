@@ -49,3 +49,6 @@
 [submodule ".vim/bundle/python_folding"]
 	path = .vim/bundle/python_folding
 	url = https://github.com/vim-scripts/Efficient-python-folding.git
+[submodule ".vim/bundle/latexlivepreview"]
+	path = .vim/bundle/latexlivepreview
+	url = git@github.com:xuhdev/vim-latex-live-preview.git
