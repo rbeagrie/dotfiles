@@ -52,3 +52,6 @@
 [submodule ".vim/bundle/latexlivepreview"]
 	path = .vim/bundle/latexlivepreview
 	url = git@github.com:xuhdev/vim-latex-live-preview.git
+[submodule ".vim/bundle/tabular"]
+	path = .vim/bundle/tabular
+	url = git@github.com:godlygeek/tabular.git
