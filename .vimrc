@@ -59,3 +59,5 @@ nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 
 "Enable python syntax highlighting
 let python_highlight_all = 1
+
+set hidden
