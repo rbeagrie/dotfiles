@@ -14,18 +14,23 @@ autocmd FileType make set noexpandtab|set nosmarttab
 map <F5> :tabp<CR>
 map <F6> :tabn<CR>
 map <F9> :enew<CR>
+syntax on
+call pathogen#infect()
+call pathogen#helptags()
 if has("gui_running")
   " GUI is running or is about to start.
   " Maximize gvim window.
-  colors blackboard
+  set background=light
+  colors solarized
   set lines=999 columns=999
-  set gfn=Anonymous_Pro:h11:cANSI
+  set gfn=Anonymous\ Pro\ 13
+else
+  set background=dark
+  colors solarized
+  set t_Co=16
 endif
-syntax on
 nnoremap <space> za
 vnoremap <space> zf
-call pathogen#infect()
-call pathogen#helptags()
 au BufRead,BufNewFile *.md set filetype=markdown
 filetype plugin indent on
 
