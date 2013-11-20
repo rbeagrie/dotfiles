@@ -66,3 +66,4 @@ nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 let python_highlight_all = 1
 
 set hidden
+set linebreak
