@@ -68,3 +68,6 @@ let python_highlight_all = 1
 set hidden
 set foldmethod=indent
 set foldnestmax=2
+
+"Save write protected files
+cnoremap sudow w !sudo tee % >/dev/null
