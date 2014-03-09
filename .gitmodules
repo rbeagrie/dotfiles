@@ -55,3 +55,6 @@
 [submodule ".vim/bundle/colors-solarized"]
 	path = .vim/bundle/colors-solarized
 	url = git@github.com:altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/ftplugin"]
+	path = .vim/bundle/ftplugin
+	url = git@github.com:rbeagrie/Efficient-python-folding.git
