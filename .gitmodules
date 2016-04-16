@@ -52,6 +52,3 @@
 [submodule ".vim/bundle/ftplugin"]
 	path = .vim/bundle/ftplugin
 	url = git@github.com:rbeagrie/Efficient-python-folding.git
-[submodule ".vim/bundle/minibufexpl"]
-	path = .vim/bundle/minibufexpl
-	url = git@github.com:fholgado/minibufexpl.vim.git
